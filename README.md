@@ -22,6 +22,13 @@ Each file includes TF–IDF features (256 dimensions).
 | `anxiety_2019_features_tfidf_256` | Posts from r/anxiety (TF–IDF 256 features). |
 | `jokes_2019_features_tfidf_256` | Posts from r/jokes, used as the control dataset. |
 | `mentalhealth_2019_features_tfidf_256` | Mixed posts from multiple mental health subreddits. |
+| `conspiracy_2019_features_tfidf_256` | Posts from r/conspiracy, used as the control dataset. |
+| `fitness_2019_features_tfidf_256` | Posts from r/fitness, used as the control dataset. |
+| `meditation_2019_features_tfidf_256` | Posts from r/meditation, used as the control dataset. |
+| `relationships_2019_features_tfidf_256` | Posts from r/relationship, used as the control dataset. |
+| `teaching_2019_features_tfidf_256` | Posts from r/teaching, used as the control dataset. |
+| `suicidewatch_2019_features_tfidf_256` | Posts from r/suicidewatch, used as the control dataset. |
+
 
 **Notebook:**  
 `reddit_eda.ipynb` performs:
