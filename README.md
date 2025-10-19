@@ -41,18 +41,18 @@ Outputs include figures and statistics to be used in the Overleaf report section
 
 ---
 
-### Twitter Dataset (to be added)
+### Twitter Dataset 
 **Source:**  
-Source: Kaggle - Mental Health Social Media Dataset
-Size: 20,000 annotated English tweets (10,000 mental health-related, 10,000 control)
-Time Period: August 2015
+https://www.kaggle.com/datasets/infamouscoder/mental-health-social-media
+This Kaggle - Mental Health Social Media Dataset, is in uncleaned format and is collected using Twitter API. The Tweets has been filtered to keep only the English context. It targets mental health classification of the user at Tweet-level. Dataset size is : 20,000 annotated English tweets (10,000 mental health-related, 10,000 control) and the time Periodis  August 2015
 Twitter EDA Notebook
 Status: To be added
 
-This notebook will include:
-Tweet-level analysis of length, complexity, and linguistic patterns
-Social features analysis (followers, retweets, favorites)
-TF-IDF analysis for mental health vs. control tweets
-Readability metrics comparison with Reddit dataset
-Cross-platform comparison visualizations
+**Notebook:**  
+twitter_eda.ipynb performs:
+-Tweet-level analysis of length, complexity, and linguistic patterns
+-Social features analysis (followers, retweets, favorites)
+-TF-IDF analysis for mental health vs. control tweets
+-Readability metrics comparison with Reddit dataset
+-Cross-platform comparison visualizations
 
