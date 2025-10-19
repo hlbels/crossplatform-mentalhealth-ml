@@ -1,7 +1,7 @@
 # crossplatform-mentalhealth-ml
 
-## Data Collection and Preprocessing
-
+## 📋 Project Overview
+This project investigates cross-platform generalization of machine learning models for mental health detection from social media text. We train models on Reddit mental health posts and test them on Twitter data to identify and mitigate platform-specific biases.
 ---
 
 ### Reddit Dataset
@@ -42,5 +42,17 @@ Outputs include figures and statistics to be used in the Overleaf report section
 ---
 
 ### Twitter Dataset (to be added)
+**Source:**  
+Source: Kaggle - Mental Health Social Media Dataset
+Size: 20,000 annotated English tweets (10,000 mental health-related, 10,000 control)
+Time Period: August 2015
+Twitter EDA Notebook
+Status: To be added
 
-The Twitter dataset and its corresponding preprocessing notebook will be added here once completed by the assigned team member.
+This notebook will include:
+Tweet-level analysis of length, complexity, and linguistic patterns
+Social features analysis (followers, retweets, favorites)
+TF-IDF analysis for mental health vs. control tweets
+Readability metrics comparison with Reddit dataset
+Cross-platform comparison visualizations
+
