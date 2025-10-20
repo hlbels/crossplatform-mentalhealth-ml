@@ -50,7 +50,6 @@ This Kaggle - Mental Health Social Media Dataset, is in uncleaned format and is 
 **Notebook:**  
 `twitter_eda.ipynb` performs:
 - Tweet-level analysis of length, complexity, and linguistic patterns
-- Social features analysis (followers, retweets, favorites)
 - TF-IDF analysis for mental health vs. control tweets
 - Readability metrics comparison with Reddit dataset
 - Cross-platform comparison visualizations
