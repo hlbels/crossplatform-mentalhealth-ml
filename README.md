@@ -60,31 +60,24 @@ This Kaggle - Mental Health Social Media Dataset, is in uncleaned format and is 
 - Word count statistics (avg: 11.10 words for control, 11.73 for mental health)
 - Comparison with Reddit posts (~20x shorter than Reddit's 250-word average)
 
-**2. Social Features Analysis**
-- User follower counts (average: 900 followers)
-- Friend counts (average: 782 friends)
-- Retweet patterns (average: 1,437.93 retweets)
-- Favorite counts and status counts
-- Distribution analysis by label (mental health vs. control)
-
-**3. TF-IDF Analysis**
+**2. TF-IDF Analysis**
 - **Mental Health Tweets (Label 1):** "depression" (0.0267), "like" (0.0170), "just" (0.0166), "love" (0.0139), "treatments" (0.0110)
 - **Control Tweets (Label 0):** "user" (0.0491), "like" (0.0151), "just" (0.0144), "trump" (0.0133), "thank" (0.0121)
 - Clear vocabulary separation demonstrating classification utility
 
-**4. Distribution Analysis**
+**3. Distribution Analysis**
 - Tweet length distribution by label
 - Character and word count histograms
 - Comparison of mental health vs. control tweet characteristics
 
-**5. Readability Analysis**
+**4. Readability Analysis**
 - Flesch-Kincaid Grade Level (Grade 7-8, compared to Reddit's Grade 10-11)
 - Flesch Reading Ease (55-65, higher than Reddit's 45-55)
 - Automated Readability Index (ARI)
 - Coleman-Liau Index
 - Correlation analysis between readability metrics (r > 0.85 between ARI, Coleman-Liau, and FK Grade)
 
-**6. Cross-Platform Comparison**
+**5. Cross-Platform Comparison**
 - Length: Twitter (11-12 words) vs. Reddit (250 words)
 - Readability: Twitter (Grade 7-8) vs. Reddit (Grade 10-11)
 - Context richness: Twitter's character limits promote concise communication
