@@ -3,7 +3,7 @@
 data/raw/*.csv
 data/raw/*.json
 data/raw/*.pkl
-
+models/
 # Allow small processed files
 !data/processed/summary_statistics.csv
 
