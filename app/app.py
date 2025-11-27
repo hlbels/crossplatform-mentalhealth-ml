@@ -18,6 +18,7 @@ from tensorflow.keras.preprocessing.sequence import pad_sequences
 # ---------------------------------------------------------
 st.set_page_config(
     page_title="Cross-Platform Mental Health Text Lab",
+    page_icon="🧠",
     layout="wide"
 )
 
